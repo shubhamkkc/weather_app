@@ -56,6 +56,8 @@ class _WeatherState extends ConsumerState<Weather> {
                   SizedBox(
                     height: 14,
                   ),
+                  //weather forcast widget
+
                   Text(
                     "Weather Forcast",
                     style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
@@ -85,6 +87,7 @@ class _WeatherState extends ConsumerState<Weather> {
                     "Additional Information",
                     style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                   ),
+                  //additional information
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
